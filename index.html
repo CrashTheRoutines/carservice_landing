@@ -3,54 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Название страницы с ключевыми словами</title>
+    <title>Автосервис</title>
     <meta
       name="description"
       content="Краткое описание страницы с ключевыми словами"
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://example.com/" />
-
-    <title>Wishbone+Partners</title>
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="logo">Wishbone<span>+Partners</span></div>
+      <div class="logo">Автосервис</div>
       <nav class="nav">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#news">News</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
-        <button class="button">Get template</button>
+        <a href="#company">О компании</a>
+        <a href="#news">Новости</a>
+        <a href="#support">Помощь</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <div class="container">
-          <div class="hero-content">
+        <div class="hero-overlay">
+          <div class="container hero-content">
             <div class="hero-text">
-              <h2 class="subheading">Wishbone+Partners</h2>
-              <h1 class="heading">The home of<br />beautiful architecture.</h1>
-              <p class="description">
-                We are an architecture firm with a focus on beautiful but
-                functional design. At its heart, we believe design is about
-                usability and accessibility — these are the guiding principles
-                for our work. Read more about our previous projects, our process
-                and our team below.
+              <h1>Автосервис<br />в Вашем городе</h1>
+              <p>
+                Мы — онлайн-университет, который обучает веб-дизайну с
+                гарантированным трудоустройством
               </p>
-              <a href="#" class="read-more">Read more</a>
             </div>
-            <div class="hero-image">
-              <img src="./img/hero_image.png" alt="hero image" />
-            </div>
+            <form class="hero-form">
+              <h3>Запишитесь на бесплатный осмотр подвески прямо сейчас</h3>
+              <input type="text" placeholder="Ваше имя" required />
+              <input type="tel" placeholder="Контактный телефон" required />
+              <input type="text" placeholder="Марка автомобиля" />
+              <button type="submit">Оставить заявку</button>
+              <small>Акция действует до 10.01.2023</small>
+            </form>
           </div>
         </div>
       </section>

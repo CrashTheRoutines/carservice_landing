@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-form {
+    width: 100%;
+  }
+}

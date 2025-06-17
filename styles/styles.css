@@ -1,3 +1,5 @@
+@import "./mobile.css";
+
 html, body {
   display: flex;
   flex-direction: column;
@@ -9,7 +11,7 @@ html, body {
   scroll-behavior: smooth;
   background-color: rgba(255, 255, 255, 1);
 
-  font-family: 'Poppins';
+  font-family: 'Stem';
   font-style: normal;
 }
 
@@ -87,64 +89,97 @@ p {
 /* Hero section */
 
 .hero {
+  background: url('../assets//img/hero.png') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #e9e5e2;
+  justify-content: center;
+  position: relative;
 }
 
-.hero-content {
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0; 
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .hero-text {
-  width: 50%;
-  margin-top: 137px;
-  margin-left: 100px;
-}
-
-.subheading {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.85rem;
-  color: #555;
-}
-
-.heading {
-  font-size: 3.5rem;
-  font-weight: 600;
-  line-height: 1.2;
-  margin-bottom: 24px;
-}
-
-.description {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #333;
+  color: white;
   max-width: 500px;
-  margin-bottom: 32px;
 }
 
-.read-more {
+.hero-text h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 24px;
+  line-height: 1.6;
+  color: white;
+}
+
+.hero-form {
+  background: #fff;
+  padding: 32px;
+  border-radius: 16px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.hero-form h3 {
   font-size: 1rem;
-  text-decoration: none;
-  color: #000;
-  border-bottom: 1px solid #000;
-  padding-bottom: 2px;
+  font-weight: 600;
 }
 
-.hero-image {
-  width: 50%;
-  height: 100vh;
+.hero-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
 }
 
-.hero-image img {
-  width: 100wv;
-  height: 100vh;
-  border-radius: 0;
-  object-fit: cover;
+.hero-form button {
+  padding: 12px;
+  background-color: #F24B6A;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero-form button:hover {
+  background-color: #d93f5b;
+}
+
+.hero-form small {
+  font-size: 0.75rem;
+  color: #777;
 }
 
 /* Our Firm */
