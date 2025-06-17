@@ -623,3 +623,16 @@ p {
   border-radius: 50%;
   padding: 6px;
 }
+
+.footer-credits {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-credits a {
+  color: inherit;
+  text-decoration: none;
+  color: white;
+}
