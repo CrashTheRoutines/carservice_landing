@@ -1,10 +1,27 @@
 @media (max-width: 768px) {
+  /* Header */
   .container {
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
   }
 
+  .nav {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .nav a {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  /* Hero */
   .hero-text h1 {
     font-size: 2rem;
   }
@@ -14,7 +31,6 @@
   }
 
   /* About */
-
   .about__container {
     flex-direction: column;
     align-items: flex-start;
@@ -41,20 +57,25 @@
   }
 
   /* Team */
-
   .team__list {
     gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
   .team__item {
     width: 100%;
     max-width: 200px;
   }
 
+  /* Contact */
   .contact-form {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
+  /* Footer */
   .footer__top {
     flex-direction: column;
     align-items: center;
@@ -64,10 +85,24 @@
   .footer__links {
     flex-direction: column;
     align-items: center;
+    gap: 12px;
+  }
+
+  .footer__contacts {
+    text-align: center;
+  }
+
+  .footer__socials {
+    margin-top: 20px;
   }
 
   .footer__socials a {
     margin: 10px 5px 0;
+  }
+
+  .footer-credits {
+    margin-top: 24px;
+    font-size: 13px;
   }
 }
 
@@ -93,28 +128,30 @@
     width: 120px;
     height: 120px;
   }
-}
 
-@media (max-width: 600px) {
   .repair__title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .repair__subtitle {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .repair__icon {
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
   }
 
   .repair__label {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .repair__desc {
-    font-size: 13px;
+    font-size: 12px;
+  }
+
+  .nav a {
+    font-size: 15px;
   }
 }
