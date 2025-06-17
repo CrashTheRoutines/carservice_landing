@@ -64,3 +64,27 @@
     height: 120px;
   }
 }
+
+@media (max-width: 600px) {
+  .repair__title {
+    font-size: 28px;
+  }
+
+  .repair__subtitle {
+    font-size: 16px;
+  }
+
+  .repair__icon {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .repair__label {
+    font-size: 16px;
+  }
+
+  .repair__desc {
+    font-size: 13px;
+  }
+}
