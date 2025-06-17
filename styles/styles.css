@@ -30,8 +30,11 @@ section {
 
 .container {
   max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: 50px auto;
+  padding: 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
@@ -182,49 +185,94 @@ p {
   color: #777;
 }
 
-/* Our Firm */
+/* About */
 
-.our {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 132px;
-  margin-top: 100px;
+.about {
+  background: #fff;
+  padding: 60px 20px;
 }
 
-.our_firm {
+.about__container {
+  max-width: 1100px;
+  margin: 0 auto;
   display: flex;
-  margin-bottom: 100px;
-
-  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
-.firm-title {
-  display: flex;
+.about__text {
+  max-width: 500px;
+  flex: 1 1 300px;
 }
 
-.firm-content {
-  width: 100%;
-  max-width: 493px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-}
-
-.firm-title {
-  font-size: 32px;
-}
-
-.firm-content p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  font-weight: 400;
+.about__subtitle {
+  color: #0080c0;
   font-size: 16px;
-  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.about__title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.about__description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about__btn {
+  display: inline-block;
+  background-color: #ff4d7e;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.about__btn:hover {
+  background-color: #e63963;
+}
+
+.about__images {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  flex: 1 1 300px;
+}
+
+.about__circle {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about__circle--top {
+  top: 0;
+  right: 0;
+  width: 160px;
+  height: 160px;
+}
+
+.about__circle--bottom {
+  bottom: 0;
+  left: 0;
+  width: 180px;
+  height: 180px;
+}
+
+.about__circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Frame */
