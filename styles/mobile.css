@@ -39,6 +39,36 @@
     bottom: 0;
     left: 0;
   }
+
+  /* Team */
+
+  .team__list {
+    gap: 30px;
+  }
+  .team__item {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__socials a {
+    margin: 10px 5px 0;
+  }
 }
 
 @media (max-width: 480px) {
