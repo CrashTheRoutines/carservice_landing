@@ -104,6 +104,60 @@
     margin-top: 24px;
     font-size: 13px;
   }
+
+  .quote {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .quote_block {
+    width: 100%;
+    max-width: 90%;
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  .quote_block blockquote {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .quote_block p {
+    font-size: 18px;
+  }
+
+  .certificate {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .certificate_block {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .certificate_text h2 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .certificate_text p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .certificate_img {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .certificate_img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -153,5 +207,13 @@
 
   .nav a {
     font-size: 15px;
+  }
+
+  .quote_block blockquote {
+    font-size: 24px;
+  }
+
+  .quote_block p {
+    font-size: 16px;
   }
 }
