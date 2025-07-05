@@ -25,7 +25,7 @@ All sections of the site are correctly presented on different devices.
 ## Design
 
 The layout was provided in Figma.
-**Design**: [Link to the layout](https://www.figma.com/design/21sqAicmOxEWbIfxXQbGEK/%D0%B0%D0%B2%D1%82 %D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81?node-id=463-0&t=TzFxzuHVZIDJN1KM-1)
+**Design**: [Link to the layout](https://www.figma.com/design/21sqAicmOxEWbIfxXQbGEK/%D0%B0%D0%B2%D1%82%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81?node-id=463-0&t=TzFxzuHVZIDJN1KM-1)
 
 ## PS
 
