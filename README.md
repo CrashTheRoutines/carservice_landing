@@ -1,32 +1,32 @@
-# Сайт автосервиса
+# Car service website
 
-![Автосервис](./assets/img/screenshot.png)
+![Car service](./assets/img/screenshot.png)
 
-Адаптивный лендинг для автосервиса, сверстанный по дизайн-макету из Figma.
+Adaptive lending for a car service, laid out using a design layout from Figma.
 
-## Стек технологий
+## Tech stack
 
 - HTML5
-- CSS3 (Flexbox, Grid)
-- Media queries (адаптив под 768px и 480px)
-- Семантическая верстка
+- CSS3 (Flexbox, grid)
+- Media queries (adaptable for 768px and 480px)
+- Semantic layout
 - Pixel Perfect
 
-## Адаптивность
+## Adaptability
 
-Проект адаптирован под:
+The project is adapted for:
 
-- Десктоп (≥ 1024px)
-- Планшет (768px)
-- Смартфон (≤ 480px)
+- Desktop (≥ 1024 pixels)
+- Tablet (768px)
+- Smartphone (≤ 480 pixels)
 
-Все секции сайта корректно отображаются на разных устройствах.
+All sections of the site are correctly presented on different devices.
 
-## Дизайн
+## Design
 
-Макет был предоставлен в Figma.  
-**Design by**: [Ссылка на макет](https://www.figma.com/design/21sqAicmOxEWbIfxXQbGEK/%D0%B0%D0%B2%D1%82%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81?node-id=463-0&t=TzFxzuHVZIDJN1KM-1)
+The layout was provided in Figma.
+**Design**: [Link to the layout](https://www.figma.com/design/21sqAicmOxEWbIfxXQbGEK/%D0%B0%D0%B2%D1%82 %D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81?node-id=463-0&t=TzFxzuHVZIDJN1KM-1)
 
 ## PS
 
-Из-за особенностей макета не удалось реализовать один из блоков
+Due to the layout features, it was not possible to implement one of the blocks
