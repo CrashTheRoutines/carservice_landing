@@ -15,10 +15,10 @@
 
         <div class="footer__links">
           <ul>
-            <li><a href="#">О компании</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Помощь</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contacts</a></li>
           </ul>
           <div class="footer__contacts">
             <p>+7 495 123-45-67</p>
